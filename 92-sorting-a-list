@@ -5,6 +5,7 @@ public List<String> getNamesInAscOrder(List<String> accountNames)
     List<String> result1 =  new List<String>();
     if(accountNames.size()>0){
         result1=accountNames.sort();
+        return true;
     }
-    return true;
+    return false;
 }
